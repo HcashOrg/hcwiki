@@ -1,0 +1,110 @@
+site_name: HC Documentation
+theme: 
+  name: material
+  custom_dir: theme_override
+  favicon: 'img/favicon.ico'
+  logo: 'img/logo.svg'
+  font: false
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/coolsnady'
+    #- type: 'twitter'
+      link: 'https://twitter.com/decredproject'
+    #- type: 'reddit'
+      link: 'https://www.reddit.com/r/decred/'
+   # - type: 'youtube'
+    #  link: 'https://www.youtube.com/decredchannel'
+site_url: https://docs.decred.org
+repo_url: https://github.com/coolsnady/hcwiki
+repo_name: HC/hcwiki
+markdown_extensions:
+  - markdown.extensions.footnotes
+  - markdown.extensions.smarty
+  - markdown.extensions.admonition
+  - markdown.extensions.toc:
+      permalink: True
+  - markdown.extensions.tables
+  - fontawesome_markdown
+  - mdx_math
+extra_javascript:
+  - js/MathJax-2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+extra_css:
+  - css/style.css
+pages:
+- 'Home': 'index.md'
+- Getting Started:
+  - "Beginner's Guide": 'getting-started/beginner-guide.md'
+  - 'Obtaining HC': 'getting-started/obtaining-hc.md'
+  - 'Using the Block Explorer': 'getting-started/using-the-block-explorer.md'
+  - 'Mainnet Voting': 'getting-started/user-guides/agenda-voting.md'
+  - 'How To Vote': 'getting-started/user-guides/how-to-vote.md'
+  - 'Using Testnet': 'getting-started/using-testnet.md'
+  - 'HC Constitution': 'getting-started/constitution.md'
+- Wallets:
+    - hcgui (GUI):
+      - 'hcgui Setup': 'getting-started/user-guides/hcgui-setup.md'
+      - 'Using hcgui': 'getting-started/user-guides/using-hcgui.md'
+    - CLI Wallet:
+      - 'Installation': 'getting-started/user-guides/cli-installation.md'
+      - 'OS Differences': 'getting-started/cli-differences.md'
+      - 'Startup Basics': 'getting-started/startup-basics.md'
+      - 'hcd Setup': 'getting-started/user-guides/hcd-setup.md'
+      - 'hcwallet Setup': 'getting-started/user-guides/hcwallet-setup.md'
+      - 'hcctl Basics': 'getting-started/user-guides/hcctl-basics.md'
+      - 'Buying Tickets': 'getting-started/user-guides/hcwallet-tickets.md'
+    - 'Web Wallet': 'getting-started/user-guides/web.md'
+- Proof-of-Stake Mining:
+  - "What is Proof-of-Stake?": 'mining/proof-of-stake.md'
+  - "How to Stake": 'mining/how-to-stake.md' 
+  - PoS FAQ:
+    - 'General': 'faq/proof-of-stake/general.md'
+    - 'Solo Mining': 'faq/proof-of-stake/solo-mining.md'
+    - 'Buying Tickets and Fees': 'faq/proof-of-stake/buying-tickets-and-fees.md'
+    - 'Voting Tickets': 'faq/proof-of-stake/voting-tickets.md'
+    - 'Stake Pools': 'faq/proof-of-stake/stake-pools.md'
+- Proof-of-Work Mining:
+  - 'Overview': 'mining/proof-of-work.md'
+  - 'gominer Pool Mining': 'mining/proof-of-work/pool-mining/gominer.md'
+  - 'PoW FAQ': 'faq/proof-of-work-mining.md'
+- FAQ:
+  - 'General': 'faq/general.md'
+  - 'Configuration': 'faq/configuration.md'
+  - 'Wallets and Seeds': 'faq/wallets-and-seeds.md'
+  - 'Web Client': 'faq/web-client.md'
+  - 'Blocks': 'faq/blocks.md'
+  - 'Common Errors and Solutions': 'faq/errors.md'
+- Advanced:
+  - 'Manual CLI Installation': 'advanced/manual-cli-install.md'
+  - 'Storing Login Details': 'advanced/storing-login-details.md'
+  - 'Program Options': 'advanced/program-options.md'
+  - 'Block Header Specifications': 'advanced/block-header-specifications.md'
+  - 'Blockchain Parameters': 'advanced/blockchain-parameters.md'
+  - 'Transaction Details': 'advanced/transaction-details.md'
+  - 'Verifying Binaries': 'advanced/verifying-binaries.md'
+  - 'Inflation': 'advanced/inflation.md'
+  - 'Deleting Your Wallet': 'advanced/deleting-your-wallet.md'
+  - 'Advanced hcctl Usage': 'advanced/hcctl-usage.md'
+  - 'Simnet': 'advanced/simnet.md'
+- Research:
+  - 'Overview': 'research/overview.md'
+  - 'Hybrid Design': 'research/hybrid-design.md'
+  - 'Decentralized Stake Pooling': 'research/decentralized-stake-pooling.md'
+  - 'Elliptic Curve Signature Algorithms': 'research/elliptic-curve-signature-algorithms.md'
+  - 'BLAKE-256 Hash Function': 'research/blake-256-hash-function.md'
+  - 'Script Extensions': 'research/script-extensions.md'
+  - 'Signature Script Isolation and Fraud Proofs': 'research/signature-script-isolation-and-fraud-proofs.md'
+  - 'Transaction Extensions': 'research/transaction-extensions.md'
+  - 'Schnorr Signatures': 'research/schnorr-signatures.md'
+  - 'Miscellaneous Improvements': 'research/miscellaneous-improvements.md'
+- Contributing:
+  - 'Contributor Compensation': 'advanced/contributor-compensation.md'
+  #- 'Contributor Projects': 'advanced/user-projects.md'
+  - Guidelines:
+    - 'Using GitHub': 'advanced/using-github.md'
+    - 'Source Code Contributions': 'advanced/contributing.md'
+- About:
+ #- 'Support Directory': 'support-directory.md'
+ # - 'Credits': 'about/credits.md'
+  - 'License': 'about/license.md'
+copyright: If you wish to improve this site, please <a href="https://github.com/HcashOrg/hcwiki/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/HcashOrg/hcwiki/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>hcwiki v2.0.0. HC Project 2018.

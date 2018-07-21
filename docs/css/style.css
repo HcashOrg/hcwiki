@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'hcwiki';
+    src:    url('fonts/hcwiki.eot?edhhde');
+    src:    url('fonts/hcwiki.eot?edhhde#iefix') format('embedded-opentype'),
+        url('fonts/hcwiki.ttf?edhhde') format('truetype'),
+        url('fonts/hcwiki.woff?edhhde') format('woff'),
+        url('fonts/hcwiki.svg?edhhde#hcwiki') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'hcwiki' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-block:before {
+    content: "\e900";
+}
+.icon-cryptocurrency:before {
+    content: "\e901";
+}
+.icon-decred_symbol:before {
+    content: "\e902";
+    color: #0C1E3E;
+}
+
+/* Override header and footer with decred dark blue*/
+.md-header,
+.md-footer-nav,
+.md-footer-meta {
+    background-color: #0C1E3E
+}
+
+/* Highlight current page in nav menu */
+.md-nav__link--active {
+    color      : #536dfe;
+    font-weight: bold;
+}
+
+/* Increase size of social media links in page footer */
+.md-footer-social {
+    font-size: 20px;
+}
+
+h1 img.dcr-icon {
+    height: 28px;
+    width : 28px;
+    vertical-align: middle;
+}
+
+h2 img.dcr-icon, h3 img.dcr-icon {
+    height: 26px;
+    width : 26px;
+    vertical-align: middle;
+}
+
+p img.dcr-icon {
+    height: 24px;
+    width : 24px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 76.1875em){
+    html .md-nav--primary .md-nav__title--site {
+    	background-color: #0C1E3E;
+    }
+    .md-nav__source {
+    	background-color: #122c5c;
+    }
+}
+
+/* Increase font-size for info/warning/danger boxes. 1.6rem matches the rest of the text. */
+.md-typeset .admonition {
+    font-size: 1.6rem;
+}
+
+/* Disable min-width for headers in tables with at least 7 columns */
+.md-typeset table:not([class]) th:first-child:nth-last-child(n+7),
+.md-typeset table:not([class]) th:first-child:nth-last-child(n+7) ~ th {
+	min-width: 0;
+}
