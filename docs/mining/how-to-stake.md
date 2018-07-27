@@ -35,5 +35,5 @@ Sometimes they will find a solution to the blocks so quickly that votes haven't 
 
 There are currently two wallets which support stakepool voting:
 
-- `Hcgui` - GUI wallet for Windows/macOS/Linux. The [Purchase Tickets tab](/getting-started/user-guides/using-hcgui.md#tickets) is used to buy tickets.
+- `hcGUI` - GUI wallet for Windows/macOS/Linux. The [Purchase Tickets tab](/getting-started/user-guides/using-hcGUI.md#tickets) is used to buy tickets.
 - `HCWALLET` - CLI wallet for Windows/macOS/Linux. The [Buying Tickets with HCWALLET](/getting-started/user-guides/hcwallet-tickets.md) guide explains how to purchase tickets via command line.

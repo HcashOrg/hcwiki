@@ -1,8 +1,8 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> Using hcgui
+# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> Using hcGUI
 
 Last updated for v1.2.0.
 
-This guide assumes you have already set up a hcgui wallet using [the hcgui Setup guide](hcgui-setup.md).
+This guide assumes you have already set up a hcGUI wallet using [the hcGUI Setup guide](hcGUI-setup.md).
 
 ---
 
@@ -10,7 +10,7 @@ This guide assumes you have already set up a hcgui wallet using [the hcgui Setup
 
 The overview tab gives a quick summary of your total HC (spendable and locked in tickets) and a list of recent transactions.
 
-The "Rescan Blockchain" button will force a rescan of all of your owned addresses to check for new transactions. This can sometimes fix issues where hcgui is displaying an incorrect balance. Note - this button will not redownload the whole blockchain.
+The "Rescan Blockchain" button will force a rescan of all of your owned addresses to check for new transactions. This can sometimes fix issues where hcGUI is displaying an incorrect balance. Note - this button will not redownload the whole blockchain.
 
 ![Overview Tab](/img/decrediton/overview.png)
 
@@ -93,7 +93,7 @@ The purchase tickets panel allows you to buy more tickets. Most of the settings 
 <!-- TODO: Revoke button -->
 <!-- TODO: Import script button -->
 
-The automatic purchase panel allows you to enable the automatic ticket buyer - hcgui will continually buy tickets for you for as long as you keep it running. You can configure how the ticket buyer works using the advanced options:
+The automatic purchase panel allows you to enable the automatic ticket buyer - hcGUI will continually buy tickets for you for as long as you keep it running. You can configure how the ticket buyer works using the advanced options:
 
 ![Automatic Purchase panel](/img/decrediton/autobuyer.png)
 
@@ -116,7 +116,7 @@ voting preferences if you change your mind about an agenda.
 
 ## Settings
 
-The settings tab allows you to customise the units HC amounts are displayed in and also allows you to switch hcgui onto the testnet blockchain.
+The settings tab allows you to customise the units HC amounts are displayed in and also allows you to switch hcGUI onto the testnet blockchain.
 
 The settings tab is also where you come to change your private passphrase.
 
@@ -127,6 +127,6 @@ The settings tab is also where you come to change your private passphrase.
 
 ## Help
 
-The help tab contains various links to get help using hcgui. The "Issues" link will take you the to the hcgui Github page where problems with the hcgui software can be reported. We would be grateful for your help!
+The help tab contains various links to get help using hcGUI. The "Issues" link will take you the to the hcGUI Github page where problems with the hcGUI software can be reported. We would be grateful for your help!
 
 ![Help Tab](/img/decrediton/help.png)

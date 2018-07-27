@@ -4,7 +4,7 @@
 
 #### 1. Some of my missed/expired tickets are still locked after more than a day. 
 
-> HCGui
+> hcGUI
 
 1. Delete the wallet and restore from seed
 
