@@ -1,79 +1,78 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> hcgui Setup Guide
+# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> hcGUI Setup Guide
 
 Last updated for v2.0.0.
 
 ---
 
-`hcgui` is a graphical user interface for `hcwallet`. When this application launches, it automatically starts its own instance of the command line tools `hcd` and `hcwallet` in the background.
+`hcGUI` is a graphical user interface for `hcwallet`. When this application launches, it automatically starts its own instance of the command line tools `hcd` and `hcwallet` in the background.
 
 !!! info "Blockchain Download"
 
-	hcgui needs to download a full copy of the HC blockchain before it can be used. This means that a large download must be completed and a large amount of storage space must be be available on the PC where hcgui is intalled.
+	hcGUI needs to download a full copy of the HC blockchain before it can be used. This means that a large download must be completed and a large amount of storage space must be be available on the PC where hcGUI is intalled.
 
-	At the end of May 2018 the HC blockchain was 3.3GB.
 
 ---
 
 ## Download and Install
 
-The latest version of hcgui can be downloaded from [https://github.com/HcashOrg](https://github.com/HcashOrg).
+The latest version of hcGUI can be downloaded from [https://github.com/HcashOrg](https://github.com/HcashOrg).
 
 > Windows
 
-1. Download the Windows installer `hcgui-v2.0.0.exe`.
+1. Download the Windows installer `hcGUI-v2.0.0.exe`.
 
-1. Double click the installer and follow the instructions. This will install and automatically start up hcgui to download the HC blockchain and set up your wallet.
+1. Double click the installer and follow the instructions. This will install and automatically start up hcGUI to download the HC blockchain and set up your wallet.
 
-1. The installer adds a shortcut to hcgui on your desktop for next time you want to use it.
+1. The installer adds a shortcut to hcGUI on your desktop for next time you want to use it.
 
 > macOS
 
-1. Download the `hcgui-v2.0.0.dmg` file.
+1. Download the `hcGUI-v2.0.0.dmg` file.
 
-1. Double click the `hcgui-v2.0.0.dmg` file once downloaded to mount the disk image.
+1. Double click the `hcGUI-v2.0.0.dmg` file once downloaded to mount the disk image.
 
-1. Drag the hcgui.app into the link to your Applications folder within the disk image.
+1. Drag the hcGUI.app into the link to your Applications folder within the disk image.
 
 > Linux
 
-1. Download the `hcgui-v2.0.0.tar.gz` file.
+1. Download the `hcGUI-v2.0.0.tar.gz` file.
 
 1. Navigate to download location and extract the .tar.gz file:
 
     Ubuntu File Browser: simply right click on the .tar.gz file and select "Extract Here". <br />
     Terminal: use the `tar -xvzf filename.tar.gz` command.
 
-    Both of these should extract the tar.gz into a folder that shares the same name. (`e.g. tar -xvzf hcgui-v2.0.0.tar.gz` should extract to `hcgui-v2.0.0`). If successful, this new folder should include a `hcgui` executable.
+    Both of these should extract the tar.gz into a folder that shares the same name. (`e.g. tar -xvzf hcGUI-v2.0.0.tar.gz` should extract to `hcGUI-v2.0.0`). If successful, this new folder should include a `hcGUI` executable.
 
 ---
 
-## Open and Set Up hcgui
+## Open and Set Up hcGUI
 
-Opening hcgui for the first time will display the following screen:
+Opening hcGUI for the first time will display the following screen:
 
-![hcgui startup screen](/img/decrediton/startup.png)
+![hcGUI startup screen](/img/decrediton/startup.png)
 
 Select your desired language and press **Continue**. A short presentation explaining HC blockchain, wallet, keys, staking/governance, and safety tips is shown. Please read these slides carefully if you are new to HC.
 
 The following screen should be displayed next.
 
-![hcgui blockchain download screen](/img/decrediton/chain-downloading.png)
+![hcGUI blockchain download screen](/img/decrediton/chain-downloading.png)
 
 A large progress bar on this screen shows the progress of the blockchain download. You can begin to set up your wallet before the download completes. 
 
 !!! info "Pausing the download"
 
-    If you close hcgui or shutdown your PC while the download is in progress, the download will be paused and progress will not be lost. It will be resumed from the same point next time hcgui is started.
+    If you close hcGUI or shutdown your PC while the download is in progress, the download will be paused and progress will not be lost. It will be resumed from the same point next time hcGUI is started.
 
     This means you can download the blockchain in multiple sessions if required.
 
-As hcgui allows you to manage multiple wallets on one PC, you must give a name to your wallet so it can be identified. Enter a name and press the **Create New Wallet** button. You will now be faced with two options: 
+As hcGUI allows you to manage multiple wallets on one PC, you must give a name to your wallet so it can be identified. Enter a name and press the **Create New Wallet** button. You will now be faced with two options: 
 
 1. **Create a New Wallet** - Press this button if this is your first time using HC.
 
-1. **Restore Existing Wallet** - Press this button if you already have a wallet seed. You can skip ahead to [Restore Existing Wallet From Seed](/getting-started/user-guides/hcgui-setup.md#restore-existing-wallet-from-seed)
+1. **Restore Existing Wallet** - Press this button if you already have a wallet seed. You can skip ahead to [Restore Existing Wallet From Seed](/getting-started/user-guides/hcGUI-setup.md#restore-existing-wallet-from-seed)
 
-![hcgui create wallet screen](/img/decrediton/create-wallet.png)
+![hcGUI create wallet screen](/img/decrediton/create-wallet.png)
 
 ---
 
@@ -91,15 +90,15 @@ As hcgui allows you to manage multiple wallets on one PC, you must give a name t
 
 The 33 word seed for your new wallet is displayed on the screen (obscured in the below image). Record the seed and store it somewhere safe.
 
-![hcgui wallet seed screen](/img/decrediton/wallet-seed.png)
+![hcGUI wallet seed screen](/img/decrediton/wallet-seed.png)
 
 Press **Continue** and re-enter the missing words from your seed on the next screen. This is to confirm you have recorded your seed correctly.
 
-![hcgui seed entry screen](/img/decrediton/seed-entered.png)
+![hcGUI seed entry screen](/img/decrediton/seed-entered.png)
 
 Create a private passphrase for your wallet. This passphrase will be used to unlock your wallet when creating transactions.
 
-Press **Create Wallet** and your wallet setup is complete. You will be taken back to the blockchain download progress bar. Once the download has been completed, hcgui will open the Overview page for your new wallet and you will be able to begin sending and receiving HC.
+Press **Create Wallet** and your wallet setup is complete. You will be taken back to the blockchain download progress bar. Once the download has been completed, hcGUI will open the Overview page for your new wallet and you will be able to begin sending and receiving HC.
 
 ---
 
@@ -117,23 +116,23 @@ Press **Create Wallet** and your wallet setup is complete. You will be taken bac
 
 ## Troubleshooting
 
-*hcgui will not start!*
+*hcGUI will not start!*
 
 ```
 hcd closed due to an error. Check hcd logs
 and contact support if the issue persists.
 ```
 
-If you encounter the above error, it could be because there is already a running instance of `hcd` on your machine. hcgui attempts to start its own instance of `hcd` and `hcwallet` in the background.
+If you encounter the above error, it could be because there is already a running instance of `hcd` on your machine. hcGUI attempts to start its own instance of `hcd` and `hcwallet` in the background.
 
-You could possibly resolve this by killing any any running `hcd` processes prior to restarting hcgui.
+You could possibly resolve this by killing any any running `hcd` processes prior to restarting hcGUI.
 
-*Where does hcgui store data/write log files?*
+*Where does hcGUI store data/write log files?*
 
-hcgui stores the blockchain, your wallet, log files and its own configuration files all in a single directory. A different directory is used depending on the operating system:
+hcGUI stores the blockchain, your wallet, log files and its own configuration files all in a single directory. A different directory is used depending on the operating system:
 
-| OS      | hcgui data directory                   |
+| OS      | hcGUI data directory                   |
 | -------:|:-------------------------------------------:|
-| Windows | `%LOCALAPPDATA%\hcgui\`                |
-| macOS   | `~/Library/Application Support/hcgui/` |
-| Linux   | `~/.config/hcgui/`                     |
+| Windows | `%LOCALAPPDATA%\hcGUI\`                |
+| macOS   | `~/Library/Application Support/hcGUI/` |
+| Linux   | `~/.config/hcGUI/`                     |

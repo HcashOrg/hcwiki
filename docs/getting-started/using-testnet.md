@@ -18,15 +18,15 @@ Running a testnet2 node is incredibly easy. You application of choice will need 
 
 ---
 
-## hcgui 
+## hcGUI 
 
-You can switch hcgui between mainnet and testnet by editing the config.json file and setting network: testnet. Config.json can be located in the following folders:
+You can switch hcGUI between mainnet and testnet by editing the config.json file and setting network: testnet. Config.json can be located in the following folders:
 
-| OS      | hcgui data directory                           |
+| OS      | hcGUI data directory                           |
 | -------:|:---------------------------------------------------:|
-| Windows | `%LOCALAPPDATA%\hcgui`                         |
-| macOS   | `~/Library/Application Support/hcgui`          |
-| Linux   | `~/.config/hcgui`                              |
+| Windows | `%LOCALAPPDATA%\hcGUI`                         |
+| macOS   | `~/Library/Application Support/hcGUI`          |
+| Linux   | `~/.config/hcGUI`                              |
 
 ---
 

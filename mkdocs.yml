@@ -42,9 +42,9 @@ pages:
   - 'Using Testnet': 'getting-started/using-testnet.md'
   - 'HC Constitution': 'getting-started/constitution.md'
 - Wallets:
-    - hcgui (GUI):
-      - 'hcgui Setup': 'getting-started/user-guides/hcgui-setup.md'
-      - 'Using hcgui': 'getting-started/user-guides/using-hcgui.md'
+    - hcGUI (GUI):
+      - 'hcGUI Setup': 'getting-started/user-guides/hcGUI-setup.md'
+      - 'Using hcGUI': 'getting-started/user-guides/using-hcGUI.md'
     - CLI Wallet:
       - 'Installation': 'getting-started/user-guides/cli-installation.md'
       - 'OS Differences': 'getting-started/cli-differences.md'

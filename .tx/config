@@ -229,9 +229,9 @@ source_file = docs/getting-started/user-guides/dcrwallet-tickets.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[hcwiki.getting-started_user-guides_hcgui-setup_md]
-file_filter = src/i18n/<lang>/getting-started/user-guides/hcgui-setup.md
-source_file = docs/getting-started/user-guides/hcgui-setup.md
+[hcwiki.getting-started_user-guides_hcGUI-setup_md]
+file_filter = src/i18n/<lang>/getting-started/user-guides/hcGUI-setup.md
+source_file = docs/getting-started/user-guides/hcGUI-setup.md
 source_lang = en
 type = GITHUBMARKDOWN
 

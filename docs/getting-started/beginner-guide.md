@@ -20,7 +20,7 @@ You'll need to follow an [Installation Guide](#installation-guides), and then fo
 
 Below you'll find a list of currently available applications, with a chart showing their compatibility with different operating systems.
 
-* **hcgui**: Cross-platform GUI client as of v1.1.1.
+* **hcGUI**: Cross-platform GUI client as of v1.1.1.
 
 * **hcd**: The node daemon, this command-line application handles block management and consensus.
 
@@ -28,7 +28,7 @@ Below you'll find a list of currently available applications, with a chart showi
 
 * **hcctl**: The remote procedure call (RPC) client, this command-line application is used to control hcd and hcwallet via RPC commands.
 
-|           | hcd | hcwallet | hcctl | hcgui  |
+|           | hcd | hcwallet | hcctl | hcGUI  |
 | ---------:|:----:|:---------:|:------:|:-----------:|
 | Windows   | X    | X         | X      | X           |
 | macOS     | X    | X         | X      | X           |
@@ -51,18 +51,18 @@ create transactions and participate in Proof-of-Stake mining/voting.
 To get started, choose an option for installations available for your operating system below:
 
 * [Command Line Suite **via hcinstall**](/getting-started/user-guides/cli-installation.md) - NOTE: The `hcinstall` method is the fastest and easiest way to get a command-line node and wallet running. It is recommended and the command-line path setup guides below will assume you've used this method.
-* [hcgui](/getting-started/user-guides/hcgui-setup.md)
+* [hcGUI](/getting-started/user-guides/hcGUI-setup.md)
 
 ---
 
 **NOTE:** All of the following guides can be found in the navigation menu with the same names.
 
-## hcgui Path 
+## hcGUI Path 
 
-The following guide will help you load hcgui:
+The following guide will help you load hcGUI:
 
-* [hcgui Setup](/getting-started/user-guides/hcgui-setup.md)
-* [Using hcgui](/getting-started/user-guides/using-hcgui.md)
+* [hcGUI Setup](/getting-started/user-guides/hcGUI-setup.md)
+* [Using hcGUI](/getting-started/user-guides/using-hcGUI.md)
 
 ## Command-Line Path 
 
