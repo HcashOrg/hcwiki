@@ -2,7 +2,7 @@
 
 ---
 
-## <i class="fa icon-decred_symbol"></i> What is HC?
+## <img class="dcr-icon" src="/img/favicon.ico" /> What is HC?
 HC is a cryptocurrency, similar to Bitcoin, with a strong focus on community input, open governance and sustainable funding and development. It utilizes a hybrid "proof-of-work" and "proof-of-stake" mining system to ensure that a small group cannot dominate the flow of transactions or make changes to HC without the input of the community. A unit of currency is called a 'HC' (HC). To ensure the integrity of the currency and prevent people from making fraudulent transactions or creating their own coins, HC uses a method of recording transactions known as a blockchain.
 
 ---

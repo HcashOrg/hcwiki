@@ -3,20 +3,20 @@ theme:
   name: material
   custom_dir: theme_override
   favicon: 'img/favicon.ico'
-  logo: 'img/logo.svg'
+  logo: 'img/favicon.ico'
   font: false
 extra:
   social:
-    - type: 'github'
-      link: 'https://github.com/coolsnady'
+    #- type: 'github'
+     # link: 'https://github.com/HcashOrg'
     #- type: 'twitter'
-      link: 'https://twitter.com/decredproject'
+     # link: 'https://twitter.com/decredproject'
     #- type: 'reddit'
-      link: 'https://www.reddit.com/r/decred/'
+    #  link: 'https://www.reddit.com/r/decred/'
    # - type: 'youtube'
     #  link: 'https://www.youtube.com/decredchannel'
-site_url: https://docs.decred.org
-repo_url: https://github.com/coolsnady/hcwiki
+site_url: https://h.cash
+repo_url: https://github.com/HcashOrg/hcwiki
 repo_name: HC/hcwiki
 markdown_extensions:
   - markdown.extensions.footnotes
