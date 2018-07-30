@@ -8,15 +8,15 @@
 
 |             |Mainet|Testnet|Simnet
 ---           |---   |---    |---
-*Peer to Peer*| 9108 | 19108 | 18555
-*RPC Server*  | 9109 | 19109 | 19556
+*Peer to Peer*| 14008 | 12008 | 13008
+*RPC Server*  | 14009 | 12009 | 13009
 
 > `hcwallet`
 
 |                |Mainet|Testnet|Simnet
 ---              |---   |---    |---
-*JSON-RPC Server*| 9110 | 19110 | 19557
-*gRPC Server*    | 9111 | 19111 | 19558
+*JSON-RPC Server*| 14010 | 12010 | 13010
+*gRPC Server*    | 14011 | 12011 | 13011
 
 ---
 
