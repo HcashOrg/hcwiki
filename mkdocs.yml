@@ -1,5 +1,5 @@
 site_name: HC Documentation
-theme: 
+theme:
   name: material
   custom_dir: theme_override
   favicon: 'img/favicon.ico'
@@ -52,11 +52,12 @@ pages:
       - 'hcd Setup': 'getting-started/user-guides/hcd-setup.md'
       - 'hcwallet Setup': 'getting-started/user-guides/hcwallet-setup.md'
       - 'hcctl Basics': 'getting-started/user-guides/hcctl-basics.md'
+      - 'hcwallet API': 'wallet/hcwalletAPI.md'
       - 'Buying Tickets': 'getting-started/user-guides/hcwallet-tickets.md'
     - 'Web Wallet': 'getting-started/user-guides/web.md'
 - Proof-of-Stake Mining:
   - "What is Proof-of-Stake?": 'mining/proof-of-stake.md'
-  - "How to Stake": 'mining/how-to-stake.md' 
+  - "How to Stake": 'mining/how-to-stake.md'
   - PoS FAQ:
     - 'General': 'faq/proof-of-stake/general.md'
     - 'Solo Mining': 'faq/proof-of-stake/solo-mining.md'
