@@ -8,7 +8,7 @@ Last updated for v2.0.0.
 
 !!! info "Blockchain Download"
 
-	hcGUI needs to download a full copy of the HC blockchain before it can be used. This means that a large download must be completed and a large amount of storage space must be be available on the PC where hcGUI is intalled.
+	hcGUI needs to download a full copy of the HC blockchain before it can be used. This means that a large download must be completed and a large amount of storage space must be available on the PC where hcGUI is intalled.
 
 
 ---
@@ -125,7 +125,7 @@ and contact support if the issue persists.
 
 If you encounter the above error, it could be because there is already a running instance of `hcd` on your machine. hcGUI attempts to start its own instance of `hcd` and `hcwallet` in the background.
 
-You could possibly resolve this by killing any any running `hcd` processes prior to restarting hcGUI.
+You could possibly resolve this by killing any running `hcd` processes prior to restarting hcGUI.
 
 *Where does hcGUI store data/write log files?*
 

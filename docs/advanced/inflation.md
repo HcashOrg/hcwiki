@@ -2,17 +2,17 @@
 
 ---
 
-New blocks are discovered by the proof-of-work miners roughly every 5 minutes, and each time this occurs new HcashOrg are created.  This block reward is split three ways:
+New blocks are discovered by the proof-of-work miners roughly every 2.5 minutes, and each time this occurs new HcashOrg are created.  This block reward is split three ways:
 
 * 60% goes to the PoW miner who found the block
 * 30% goes to the PoS voters on that block (6% to each of the 5 voters)
 * 10% goes towards the development subsidy
 
-The block reward started at 31.19582664 and it adjusts every 6,144 blocks (approximately 21.33 days) by reducing by a factor of 100/101[^1].
+The block reward started at 6.4 and it adjusts every 12,288 blocks (approximately 21.33 days) by reducing by a factor of about 999/1000[^1].
 
 If a block includes less than 5 PoS votes there will be a fraction of the block reward which is not allocated to anybody. As a result, it is only possible to calculate an upper limit for the total number of HcashOrg which will ever be created.
 
-> The last block reward will be created in September 2120. The upper limit on the total supply of HcashOrg is 20,999,999.99800912 coins[^2].
+> The last block reward will be created in September 2120. The upper limit on the total supply of HcashOrg is 40,650,286.40797817 coins[^2].
 
 The following chart shows an estimate of the coin supply growth over time.
 
