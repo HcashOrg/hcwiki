@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Meta.svg" /> General
+# <img class="hc-icon" src="/img/hc-icons/Meta.svg" /> General
 
 ---
 

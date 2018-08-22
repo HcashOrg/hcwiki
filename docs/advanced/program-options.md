@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Options2.svg" /> Program Options
+# <img class="hc-icon" src="/img/hc-icons/Options2.svg" /> Program Options
 
 ---
 

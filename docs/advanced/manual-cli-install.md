@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Dcrtl.svg" /> Manual CLI Installation
+# <img class="hc-icon" src="/img/hc-icons/Hctl.svg" /> Manual CLI Installation
 
 Last updated for v1.2.0.
 

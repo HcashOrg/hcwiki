@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Solo.svg" /> Solo Mining
+# <img class="hc-icon" src="/img/hc-icons/Solo.svg" /> Solo Mining
 
 ---
 

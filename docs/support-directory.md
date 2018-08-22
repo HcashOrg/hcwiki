@@ -1,14 +1,14 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Chat.svg" /> Support Reference Directory 
+# <img class="hc-icon" src="/img/hc-icons/Chat.svg" /> Support Reference Directory 
 
-The purpose of this page is to provide a directory for support contacts. Everyone currently working with the Decred project has their Slack and/or IRC username listed.
+The purpose of this page is to provide a directory for support contacts. Everyone currently working with the Hcd project has their Slack and/or IRC username listed.
 
 ## Join Us on Slack
 
-Join us on Slack for support. You can receive an invite to the Decred Slack by visiting [https://slack.decred.org](https://slack.decred.org). Once you've signed up, you can join using your web browser by visiting [https://decred.slack.com](https://decred.slack.com) or by downloading one of Slack's desktop or mobile applications.
+Join us on Slack for support. You can receive an invite to the Hcd Slack by visiting [https://slack.hcd.org](https://slack.hcd.org). Once you've signed up, you can join using your web browser by visiting [https://hcd.slack.com](https://hcd.slack.com) or by downloading one of Slack's desktop or mobile applications.
 
 ## IRC Information:
 
-Majority of the developers are available on the Freenode IRC #decred channel. Join us on your own IRC client or the Freenode webchat [here](https://webchat.freenode.net/?channels=decred&uio=d4). There is also a bridge between Slack's #general channel and the #decred channel on IRC.
+Majority of the developers are available on the Freenode IRC #hcd channel. Join us on your own IRC client or the Freenode webchat [here](https://webchat.freenode.net/?channels=hcd&uio=d4). There is also a bridge between Slack's #general channel and the #hcd channel on IRC.
 
 ## Development Support
 
@@ -58,8 +58,8 @@ Consensus Expert<br />
 Support
 
 **@dnldd: Developer** <br />
-dcrd/dcrwallet Support<br />
-dcrrpcclient Support
+hcd/hcwallet Support<br />
+hcrpcclient Support
 
 **@go1dfish: Developer** <br />
 Decrediton Support
@@ -129,7 +129,7 @@ Reddit
 Reddit<br />
 Slack
 
-**@thedecreddigest**<br />
+**@thehcddigest**<br />
 Twitter
 
 ## Design Support
@@ -182,7 +182,7 @@ Advertising
 **@jz**<br />
 Networking
 
-**@thedecreddigest**<br />
+**@thehcddigest**<br />
 Media
 
 **@zombie5000**<br />

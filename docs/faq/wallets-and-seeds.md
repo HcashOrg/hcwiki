@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/CreateWallet.svg" /> Wallets and Seeds
+# <img class="hc-icon" src="/img/hc-icons/CreateWallet.svg" /> Wallets and Seeds
 
 ---
 

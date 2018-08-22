@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> Using hcGUI
+# <img class="hc-icon" src="/img/hc-icons/Wallet.svg" /> Using hcGUI
 
 Last updated for v1.2.0.
 

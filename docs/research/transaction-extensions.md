@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Code.svg" /> Transactions Extensions 
+# <img class="hc-icon" src="/img/hc-icons/Code.svg" /> Transactions Extensions 
 
 ---
 

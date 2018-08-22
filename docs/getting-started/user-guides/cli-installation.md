@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Dcrtl.svg" /> CLI Installation guide
+# <img class="hc-icon" src="/img/hc-icons/Hctl.svg" /> CLI Installation guide
 
 This page was last updated for  v2.0.0.
 

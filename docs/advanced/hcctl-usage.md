@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/hctl.svg" /> hcctl Usage 
+# <img class="hc-icon" src="/img/hc-icons/hctl.svg" /> hcctl Usage 
 
 hcctl provides a way to control both the daemon `hcd` and the wallet
 `hcwallet` using the json rpc interface without actually writing

@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/TicketLive.svg" /> PoS General FAQ
+# <img class="hc-icon" src="/img/hc-icons/TicketLive.svg" /> PoS General FAQ
 
 ---
 

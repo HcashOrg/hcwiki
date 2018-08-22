@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> Web Client User Guide
+# <img class="hc-icon" src="/img/hc-icons/Wallet.svg" /> Web Client User Guide
 
 ---
 
@@ -25,7 +25,7 @@ before you use it:
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/CreateWallet.svg" /> Create your web client wallet
+## <img class="hc-icon" src="/img/hc-icons/CreateWallet.svg" /> Create your web client wallet
 
 > Step One
 
@@ -104,7 +104,7 @@ restore it. Now that you are sure the list is stored correctly, click
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Send.svg" /> Send funds with the web client
+## <img class="hc-icon" src="/img/hc-icons/Send.svg" /> Send funds with the web client
 
 > Step One
 
@@ -126,7 +126,7 @@ required funds have been confirmed.
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Receive.svg" /> Receive funds with the web client
+## <img class="hc-icon" src="/img/hc-icons/Receive.svg" /> Receive funds with the web client
 
 > Step One
 

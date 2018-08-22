@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Flag.svg" /> Beginner's Guide
+# <img class="hc-icon" src="/img/hc-icons/Flag.svg" /> Beginner's Guide
 
 Last updated for v2.0.0
 

@@ -141,10 +141,10 @@ Calculates and returns the balance of one or all accounts.
 
 ###### Result (account != "*"):
 
-n.nnn (numeric) The balance of 'account' valued in decred
+n.nnn (numeric) The balance of 'account' valued in hcd
 
 Result (account = "*"):
-n.nnn (numeric) The balance of all accounts valued in decred
+n.nnn (numeric) The balance of all accounts valued in hcd
 
 #### getbestblockhash
 
@@ -307,7 +307,7 @@ DEPRECATED -- Returns the total amount received by addresses of some account, in
 
 ###### Result:
 
-n.nnn (numeric) The total received amount valued in decred
+n.nnn (numeric) The total received amount valued in hcd
 
 #### getreceivedbyaddress
 
@@ -320,7 +320,7 @@ Returns the total amount received by a single address, including spent outputs.
 
 ###### Result:
 
-n.nnn (numeric) The total received amount valued in decred
+n.nnn (numeric) The total received amount valued in hcd
 
 #### gettickets
 
@@ -355,7 +355,7 @@ Returns a JSON object with details regarding a transaction relevant to this wall
 ```javascript
 {
 
- "amount": n.nnn,                  (numeric)         The total amount this transaction credits to the wallet, valued in decred
+ "amount": n.nnn,                  (numeric)         The total amount this transaction credits to the wallet, valued in hcd
 
  "fee": n.nnn,                     (numeric)         The total input value minus the total output value, or 0 if 'txid' is not a sent transaction
 
@@ -497,7 +497,7 @@ DEPRECATED -- Returns a JSON object of all accounts and their balances.
 ```
 {
 
- "The account name": The account balance valued in decred, (object) JSON object with account names as keys and decred amounts as values
+ "The account name": The account balance valued in hcd, (object) JSON object with account names as keys and hcd amounts as values
  ...
 }
 ```
@@ -542,7 +542,7 @@ DEPRECATED -- Returns a JSON array of objects listing all accounts and the total
 
  "account": "value", (string)  The name of the account
 
- "amount": n.nnn,    (numeric) Total amount received by payment addresses of the account valued in decred
+ "amount": n.nnn,    (numeric) Total amount received by payment addresses of the account valued in hcd
 
  "confirmations": n, (numeric) Number of block confirmations of the most recent transaction relevant to the account
 
@@ -569,7 +569,7 @@ Returns a JSON array of objects listing wallet payment addresses and their total
 
  "address": "value",              (string)          The payment address
 
- "amount": n.nnn,                 (numeric)         Total amount received by the payment address valued in decred
+ "amount": n.nnn,                 (numeric)         Total amount received by the payment address valued in hcd
 
  "confirmations": n,              (numeric)         Number of block confirmations of the most recent transaction relevant to the address
 
@@ -601,7 +601,7 @@ Returns a JSON array of objects listing details of all wallet transactions after
 
   "address": "value",               (string)          Payment address for a transaction output
 
-  "amount": n.nnn,                  (numeric)         The value of the transaction output valued in decred
+  "amount": n.nnn,                  (numeric)         The value of the transaction output valued in hcd
 
   "blockhash": "value",             (string)          The hash of the block this transaction is mined in, or the empty string if unmined
 
@@ -663,7 +663,7 @@ Returns a JSON array of objects containing verbose details for wallet transactio
 
  "address": "value",               (string)          Payment address for a transaction output
 
- "amount": n.nnn,                  (numeric)         The value of the transaction output valued in decred
+ "amount": n.nnn,                  (numeric)         The value of the transaction output valued in hcd
 
  "blockhash": "value",             (string)          The hash of the block this transaction is mined in, or the empty string if unmined
 
@@ -731,7 +731,7 @@ Returns a JSON array of objects representing unlocked unspent outputs controlled
 
  "redeemScript": "value", (string)  Unset
 
- "amount": n.nnn,         (numeric) The amount of the output valued in decred
+ "amount": n.nnn,         (numeric) The amount of the output valued in hcd
 
  "confirmations": n,      (numeric) The number of block confirmations of the transaction
 
@@ -867,7 +867,7 @@ A change output is automatically included to send extra output value back to the
 
 1. fromaccount (string, required)             Account to pick unspent outputs from
 2. toaddress   (string, required)             Address to pay
-3. amount      (numeric, required)            Amount to send to the payment address valued in decred
+3. amount      (numeric, required)            Amount to send to the payment address valued in hcd
 4. minconf     (numeric, optional, default=1) Minimum number of block confirmations required before a transaction output is eligible to be spent
 5. comment     (string, optional)             Unused
 6. commentto   (string, optional)             Unused
@@ -886,7 +886,7 @@ A change output is automatically included to send extra output value back to the
 1. fromaccount (string, required) DEPRECATED -- Account to pick unspent outputs from
 2. amounts     (object, required) Pairs of payment addresses and the output amount to pay each
     {
-      "Address to pay": Amount to send to the payment address valued in decred, (object) JSON object using payment addresses as keys and output amounts valued in decred to send to each address
+      "Address to pay": Amount to send to the payment address valued in hcd, (object) JSON object using payment addresses as keys and output amounts valued in hcd to send to each address
       ...
     }
 3. minconf (numeric, optional, default=1) Minimum number of block confirmations required before a transaction output is eligible to be spent
@@ -905,7 +905,7 @@ A change output is automatically included to send extra output value back to the
 ###### Arguments:
 
 1. address   (string, required)  Address to pay
-2. amount    (numeric, required) Amount to send to the payment address valued in decred
+2. amount    (numeric, required) Amount to send to the payment address valued in hcd
 3. comment   (string, optional)  Unused
 4. commentto (string, optional)  Unused
 
@@ -922,7 +922,7 @@ A change output is automatically included to send extra output value back to the
 ###### Arguments:
 
 1. fromaccount (string, required)             Unused
-2. amount      (numeric, required)            Amount to send to the payment address valued in decred
+2. amount      (numeric, required)            Amount to send to the payment address valued in hcd
 3. pubkeys     (array of string, required)    Pubkey to send to.
 4. nrequired   (numeric, optional, default=1) The number of signatures required to redeem outputs paid to this address
 5. minconf     (numeric, optional, default=1) Minimum number of block confirmations required
@@ -938,7 +938,7 @@ Modify the fee per kB of the serialized tx size used each time more fee is requi
 
 ###### Arguments:
 
-1. amount (numeric, required) The new fee per kB of the serialized tx size valued in decred
+1. amount (numeric, required) The new fee per kB of the serialized tx size valued in hcd
 
 ###### Result:
 
@@ -1223,7 +1223,7 @@ Calculates the unspent output value of all unmined transaction outputs for an ac
 
 ###### Result:
 
-n.nnn (numeric) Total amount of all unmined unspent outputs of the account valued in decred.
+n.nnn (numeric) Total amount of all unmined unspent outputs of the account valued in hcd.
 
 #### listaddresstransactions
 
@@ -1243,7 +1243,7 @@ Returns a JSON array of objects containing verbose details for wallet transactio
 
  "address": "value",               (string)          Payment address for a transaction output
 
- "amount": n.nnn,                  (numeric)         The value of the transaction output valued in decred
+ "amount": n.nnn,                  (numeric)         The value of the transaction output valued in hcd
 
  "blockhash": "value",             (string)          The hash of the block this transaction is mined in, or the empty string if unmined
 
@@ -1298,7 +1298,7 @@ Returns a JSON array of objects in the same format as 'listtransactions' without
 
  "address": "value",               (string)          Payment address for a transaction output
 
- "amount": n.nnn,                  (numeric)         The value of the transaction output valued in decred
+ "amount": n.nnn,                  (numeric)         The value of the transaction output valued in hcd
 
  "blockhash": "value",             (string)          The hash of the block this transaction is mined in, or the empty string if unmined
 
@@ -1564,7 +1564,7 @@ Modify the fee per kB of the serialized tx size used each time more fee is requi
 
 ###### Arguments:
 
-1. fee (numeric, required) The new fee per kB of the serialized tx size valued in decred
+1. fee (numeric, required) The new fee per kB of the serialized tx size valued in hcd
 
 ###### Result:
 

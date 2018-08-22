@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/PoWMine.svg" /> Proof-of-Work (PoW) Mining
+# <img class="hc-icon" src="/img/hc-icons/PoWMine.svg" /> Proof-of-Work (PoW) Mining
 
 ---
 
@@ -26,24 +26,24 @@ higher hashrates and therefore receive higher rewards.
 
 ## Solo Mining or Pool Mining  
 
-> <img class="dcr-icon" src="/img/dcr-icons/Solo.svg" /> Solo Mining
+> <img class="hc-icon" src="/img/hc-icons/Solo.svg" /> Solo Mining
 
 :fa-exclamation-triangle: **Solo mining is not recommended and is not covered by this documentation!** The Hcash network regularly sees a network hash rate of up to 10,000Gh/s. Solo mining is generally only done by advanced individuals or organized groups with a large cluster of GPUs so it is not addressed here.
 
-> <img class="dcr-icon" src="/img/dcr-icons/Pool.svg" /> Pool Mining
+> <img class="hc-icon" src="/img/hc-icons/Pool.svg" /> Pool Mining
 
 When you mine in a pool, your hashrate is combined with all the other pool miners’ hashrates to look for the correct solution for a block. You will receive a reward based on the amount of work your miner performs in the pool.
 Pool mining distributes shares based on blocks found so you can earn a steady amount of Hcash rather than the "all or none" of solo mining.
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Receive.svg" /> Obtain a Hcash Address to Receive Funds With
+## <img class="hc-icon" src="/img/hc-icons/Receive.svg" /> Obtain a Hcash Address to Receive Funds With
 
 Follow the [hcctl Basics](/getting-started/user-guides/hcctl-basics.md) guide and create an address so you can withdraw mining rewards to it.
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/SignUpForPool.svg" /> Sign up for a Mining Pool
+## <img class="hc-icon" src="/img/hc-icons/SignUpForPool.svg" /> Sign up for a Mining Pool
 
 These mining pools are known to support Hcash:
 
@@ -60,13 +60,13 @@ Please choose to mine on a smaller pool so the network's hashrate can be spread 
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Servers.svg" /> GPU Drivers/Software
+## <img class="hc-icon" src="/img/hc-icons/Servers.svg" /> GPU Drivers/Software
 
 GPU drivers usually contain the libraries needed for mining.  If you have difficulties running the software you may wish to re-install and specifically check that the OpenCL (AMD) or CUDA (NVIDIA) libraries are selected.
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Download.svg" /> Select and Download Mining Software
+## <img class="hc-icon" src="/img/hc-icons/Download.svg" /> Select and Download Mining Software
 
 ### Official Hcash Miner (gominer)
 
@@ -86,7 +86,7 @@ Please be certain to select the correct operating system (Windows/Linux) and the
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Dcrtl.svg" /> Running the Software
+## <img class="hc-icon" src="/img/hc-icons/Hctl.svg" /> Running the Software
 
 * Decompress and install the software to a place of your choosing.
 * Open a command prompt to that path.

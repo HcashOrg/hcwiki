@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/TicketVoted.svg" /> Voting Tickets
+# <img class="hc-icon" src="/img/hc-icons/TicketVoted.svg" /> Voting Tickets
 
 ---
 

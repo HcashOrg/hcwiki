@@ -205,27 +205,27 @@ source_file = docs/getting-started/user-guides/cli-installation.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[hcwiki.getting-started_user-guides_dcrctl-basics_md]
-file_filter = src/i18n/<lang>/getting-started/user-guides/dcrctl-basics.md
-source_file = docs/getting-started/user-guides/dcrctl-basics.md
+[hcwiki.getting-started_user-guides_hcctl-basics_md]
+file_filter = src/i18n/<lang>/getting-started/user-guides/hcctl-basics.md
+source_file = docs/getting-started/user-guides/hcctl-basics.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[hcwiki.getting-started_user-guides_dcrd-setup_md]
-file_filter = src/i18n/<lang>/getting-started/user-guides/dcrd-setup.md
-source_file = docs/getting-started/user-guides/dcrd-setup.md
+[hcwiki.getting-started_user-guides_hcd-setup_md]
+file_filter = src/i18n/<lang>/getting-started/user-guides/hcd-setup.md
+source_file = docs/getting-started/user-guides/hcd-setup.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[hcwiki.getting-started_user-guides_dcrwallet-setup_md]
-file_filter = src/i18n/<lang>/getting-started/user-guides/dcrwallet-setup.md
-source_file = docs/getting-started/user-guides/dcrwallet-setup.md
+[hcwiki.getting-started_user-guides_hcwallet-setup_md]
+file_filter = src/i18n/<lang>/getting-started/user-guides/hcwallet-setup.md
+source_file = docs/getting-started/user-guides/hcwallet-setup.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[hcwiki.getting-started_user-guides_dcrwallet-tickets_md]
-file_filter = src/i18n/<lang>/getting-started/user-guides/dcrwallet-tickets.md
-source_file = docs/getting-started/user-guides/dcrwallet-tickets.md
+[hcwiki.getting-started_user-guides_hcwallet-tickets_md]
+file_filter = src/i18n/<lang>/getting-started/user-guides/hcwallet-tickets.md
+source_file = docs/getting-started/user-guides/hcwallet-tickets.md
 source_lang = en
 type = GITHUBMARKDOWN
 

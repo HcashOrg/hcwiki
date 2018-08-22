@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Wallet.svg" /> Web Client
+# <img class="hc-icon" src="/img/hc-icons/Wallet.svg" /> Web Client
 
 ---
 

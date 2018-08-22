@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/TicketVoted.svg" /> Mainnet Voting Guide
+# <img class="hc-icon" src="/img/hc-icons/TicketVoted.svg" /> Mainnet Voting Guide
 
 This guide was last updated on September 23, 2017.
 

@@ -10,11 +10,11 @@ extra:
     #- type: 'github'
      # link: 'https://github.com/HcashOrg'
     #- type: 'twitter'
-     # link: 'https://twitter.com/decredproject'
+     # link: 'https://twitter.com/hcdproject'
     #- type: 'reddit'
-    #  link: 'https://www.reddit.com/r/decred/'
+    #  link: 'https://www.reddit.com/r/hcd/'
    # - type: 'youtube'
-    #  link: 'https://www.youtube.com/decredchannel'
+    #  link: 'https://www.youtube.com/hcdchannel'
 site_url: https://h.cash
 repo_url: https://github.com/HcashOrg/hcwiki
 repo_name: HC/hcwiki

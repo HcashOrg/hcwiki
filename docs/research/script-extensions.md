@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Code.svg" /> Script Extensions 
+# <img class="hc-icon" src="/img/hc-icons/Code.svg" /> Script Extensions 
 
 ---
 

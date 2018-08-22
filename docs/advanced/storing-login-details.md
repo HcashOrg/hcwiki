@@ -1,4 +1,4 @@
- # <img class="dcr-icon" src="/img/dcr-icons/Harddrive.svg" /> Storing Login Details
+ # <img class="hc-icon" src="/img/hc-icons/Harddrive.svg" /> Storing Login Details
 
 All parameters that are specified on the command line while starting hcd,
 hcwallet and hcctl can also be kept in configuration files. This is

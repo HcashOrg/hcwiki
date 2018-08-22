@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/QuestionTicket.svg" /> How to Stake
+# <img class="hc-icon" src="/img/hc-icons/QuestionTicket.svg" /> How to Stake
 
 Last updated for v1.1.3
 
@@ -14,13 +14,13 @@ Stakepools are available for those unable to keep a personal voting wallet onlin
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Solo.svg" /> Solo PoS
+## <img class="hc-icon" src="/img/hc-icons/Solo.svg" /> Solo PoS
 
 Solo mining is currently only possible using the HC command line tools. The [Buying Tickets with HCWALLET](/getting-started/user-guides/hcwallet-tickets.md) guide explains how to buy tickets using the CLI wallet `HCWALLET`.
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Pool.svg" /> PoS using a Stakepool
+## <img class="hc-icon" src="/img/hc-icons/Pool.svg" /> PoS using a Stakepool
 
 You can find the list of all official stakepools and statistics by visiting the
 [:fa-external-link-square: HC website](https://h.cash).

@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Pool.svg" /> Stake Pools
+# <img class="hc-icon" src="/img/hc-icons/Pool.svg" /> Stake Pools
 
 ---
 

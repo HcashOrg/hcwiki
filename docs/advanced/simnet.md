@@ -1,8 +1,8 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Dcrtl.svg" /> Simnet 
+# <img class="hc-icon" src="/img/hc-icons/Hctl.svg" /> Simnet 
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> Overview 
+## <img class="hc-icon" src="/img/hc-icons/Info.svg" /> Overview 
 
 When developing HC applications or testing potential changes, it is often extremely useful to have a test network where difficulty levels are low enough to generate blocks as needed.
 
@@ -25,7 +25,7 @@ In order to facilitate these scenarios, hcd provides a simulation network (`--si
 
   ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/AtoB.svg" /> Getting Started 
+## <img class="hc-icon" src="/img/hc-icons/AtoB.svg" /> Getting Started 
 
 Running a single `hcd` node on simnet is simply starting `hcd` with the `--simnet` flag.  However, in order to be really useful, you'll typically want to be able to send coins amongst addresses which implies that blocks will need to be mined and interfacing with a wallet will be needed.
 

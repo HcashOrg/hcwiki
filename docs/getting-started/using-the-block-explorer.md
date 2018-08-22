@@ -1,8 +1,8 @@
-# <img class="dcr-icon" src="/img/dcr-icons/BlockExplorer.svg" /> Using the Block Explorer
+# <img class="hc-icon" src="/img/hc-icons/BlockExplorer.svg" /> Using the Block Explorer
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> Overview
+## <img class="hc-icon" src="/img/hc-icons/Info.svg" /> Overview
 
 There are two block explorers available for HC. All blocks and transactions on the HC blockchain
 are visible through the use of these block explorers.
@@ -32,7 +32,7 @@ the value (in HC) transmitted across the network.
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Blocks.svg" /> Blocks
+## <img class="hc-icon" src="/img/hc-icons/Blocks.svg" /> Blocks
 
 Blocks can be found by searching for their block height number,
 clicking on a `Height` value from the home page, or from their
@@ -62,7 +62,7 @@ Option                   | Explanation
 `Version`                | The version of the block.
 `Nonce`                  | The value used by a miner to find the correct solution for this block.
 
-## <img class="dcr-icon" src="/img/dcr-icons/Transactions.svg" /> Transactions
+## <img class="hc-icon" src="/img/hc-icons/Transactions.svg" /> Transactions
 
 This section lists all the transactions that were mined into this
 block. Transactions are chosen from the network mempool in order of
@@ -90,7 +90,7 @@ Note `Received Time`, `Mined Time`, and `Included in Block` will not have a valu
 
 ---
 
-### <img class="dcr-icon" src="/img/dcr-icons/TicketLive.svg" /> Ticket purchases
+### <img class="hc-icon" src="/img/hc-icons/TicketLive.svg" /> Ticket purchases
 
 For a ticket purchase (stake submission) there are a few differences
 from a standard transaction shown.
@@ -109,7 +109,7 @@ is the address where change for this transaction will be sent.
 
 ---
 
-### <img class="dcr-icon" src="/img/dcr-icons/TicketVoted.svg" /> Proof-of-stake votes
+### <img class="hc-icon" src="/img/hc-icons/TicketVoted.svg" /> Proof-of-stake votes
 
 Note the identifying terms in the details section: `Vote`, `Stake
 Base`, `Block Commitment`, and `Vote Bits`:

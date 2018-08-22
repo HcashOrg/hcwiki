@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> Overview 
+# <img class="hc-icon" src="/img/hc-icons/Info.svg" /> Overview 
 
 ---
 

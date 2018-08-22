@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/DeleteWallet.svg" /> Deleting Your Wallet 
+# <img class="hc-icon" src="/img/hc-icons/DeleteWallet.svg" /> Deleting Your Wallet 
 
 There are a few reasons you might need to delete your wallet.
 

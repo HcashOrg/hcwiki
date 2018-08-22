@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Document.svg" /> License 
+# <img class="hc-icon" src="/img/hc-icons/Document.svg" /> License 
 
 hcwiki is licensed under the [copyfree](http://copyfree.org) ISC License.
 

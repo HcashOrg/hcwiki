@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Config1.svg" /> Configuration
+# <img class="hc-icon" src="/img/hc-icons/Config1.svg" /> Configuration
 
 ---
 

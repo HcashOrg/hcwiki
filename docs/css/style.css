@@ -30,12 +30,12 @@
 .icon-cryptocurrency:before {
     content: "\e901";
 }
-.icon-decred_symbol:before {
+.icon-hcd_symbol:before {
     content: "\e902";
     color: #0C1E3E;
 }
 
-/* Override header and footer with decred dark blue*/
+/* Override header and footer with hcd dark blue*/
 .md-header,
 .md-footer-nav,
 .md-footer-meta {
@@ -53,19 +53,19 @@
     font-size: 20px;
 }
 
-h1 img.dcr-icon {
+h1 img.hc-icon {
     height: 28px;
     width : 28px;
     vertical-align: middle;
 }
 
-h2 img.dcr-icon, h3 img.dcr-icon {
+h2 img.hc-icon, h3 img.hc-icon {
     height: 26px;
     width : 26px;
     vertical-align: middle;
 }
 
-p img.dcr-icon {
+p img.hc-icon {
     height: 24px;
     width : 24px;
     vertical-align: middle;

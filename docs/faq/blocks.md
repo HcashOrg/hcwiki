@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Blocks.svg" /> Blocks
+# <img class="hc-icon" src="/img/hc-icons/Blocks.svg" /> Blocks
 
 ---
 

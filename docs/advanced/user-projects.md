@@ -1,4 +1,4 @@
-# <img class="dcr-icon" src="/img/dcr-icons/UserProjects.svg" /> Contributor Projects
+# <img class="hc-icon" src="/img/hc-icons/UserProjects.svg" /> Contributor Projects
 
 ---
 
@@ -9,19 +9,19 @@ The following is a list of projects which have been created by members of the Hc
 
 Project                                                                       | Description
 ------------------------------------------------------------------------------|------------------------------------------
-[Decred Wallet Gui](https://forum.decred.org/threads/decred-wallet-gui.1119/) | Alternative wallet GUI written in Java
+[Hcd Wallet Gui](https://forum.hcd.org/threads/hcd-wallet-gui.1119/) | Alternative wallet GUI written in Java
 
 ## Proof of Stake
 
 Project                                     | Description
 --------------------------------------------|------------------------------------
-[Evolution](https://evolution.dcrstats.com) | Alternative to official stake pools
+[Evolution](https://evolution.hcstats.com) | Alternative to official stake pools
 [PoS Master](http://www.posmaster.info/)    | Calculate returns on PoS voting
 
 
 ## Command line
 Project                                                                                                                         | Description
 --------------------------------------------------------------------------------------------------------------------------------|------------------------------------
-[dcrspy](https://github.com/chappjc/dcrspy)                                                                                     | Monitor details of the Decred network
-[Balance and ticket stats](https://forum.decred.org/threads/bash-shell-script-to-view-quick-stats-on-balance-and-tickets.2926/) | Bash script displaying wallet stats
-[dcrstatus](https://github.com/karamble/dcrstatus)                                                                              | Dashboard showing personal stats in Bash
+[hcspy](https://github.com/chappjc/hcspy)                                                                                     | Monitor details of the Hcd network
+[Balance and ticket stats](https://forum.hcd.org/threads/bash-shell-script-to-view-quick-stats-on-balance-and-tickets.2926/) | Bash script displaying wallet stats
+[hcstatus](https://github.com/karamble/hcstatus)                                                                              | Dashboard showing personal stats in Bash
