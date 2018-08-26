@@ -22,9 +22,9 @@ To participate in proof-of-stake mining, stakeholders lock some HC in return for
 
 There are a few important variables that you should familiarize yourself with while staking.
 
-Every 144 blocks (~12 hours), the stake difficulty algorithm calculates a new **Ticket Price** in an attempt to keep the **Ticket Pool** size near the target pool size of 40,960 tickets. This 144 block window is referred to as the `StakeDiffWindowSize`.
+Every 288 blocks (~12 hours), the stake difficulty algorithm calculates a new **Ticket Price** in an attempt to keep the **Ticket Pool** size near the target pool size of 40,960 tickets. This 288 block window is referred to as the `StakeDiffWindowSize`.
 
-The **Ticket Price**/**Stake Difficulty** is the price you must pay for a ticket during a single 144 block window.
+The **Ticket Price**/**Stake Difficulty** is the price you must pay for a ticket during a single 288 block window.
 
 The **Ticket Pool** is the total number of tickets in the HC network.
 
@@ -50,7 +50,7 @@ A ticket on main net (test net uses different parameters) will go through a few 
 **B -** If your ticket is not mined, both the **Ticket Price** and **Ticket Fee** are returned to the purchasing account.
 5. After your ticket matures (256 blocks), it enters the **Ticket Pool** and is eligible for voting.
 6. The chance of a ticket voting is based on a Poisson distribution with a mean of 28 days. After 28 days a ticket has a 50% chance to have already voted.
-7. Given a target pool size of 40960 tickets, any given ticket has a 99.5% chance of voting within ~142 days (about 4.7 months). If, after this time, a ticket has not voted, it expires. You receive a refund on the original **Ticket Price**.
+7. Given a target pool size of 40960 tickets, any given ticket has a 99.5% chance of voting within ~71 days (about 3.4 months). If, after this time, a ticket has not voted, it expires. You receive a refund on the original **Ticket Price**.
 8. A ticket may miss its call to vote if the voting wallet does not respond or two valid blocks are found within close proximity of each other. If this happens, you receive a refund on the original **Ticket Price**.
 9. After a ticket has voted, missed, or expired, the funds (ticket price and subsidy if applicable, minus the fee) will enter immature status for another 256 blocks, after which they are released. If a ticket is missed or expired, a ticket revocation transaction is submitted by the wallet which then frees up the locked ticket outputs. **NOTE:** Revocations can only be submitted for a corresponding missed ticket. You cannot revoke a ticket until it is missed.
 

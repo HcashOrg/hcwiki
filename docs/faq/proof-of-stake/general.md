@@ -48,7 +48,7 @@ It is important to note that you are only assigning voting rights to the pool, n
 The price for tickets is determined by an algorithm that aims to keep the ticket pool size, which is the total amount of tickets in the PoS system ticket pool around a target size of 40960 tickets.
 The ticket price will go up or down according to the demand for tickets, and the number of tickets currently in the pool.
 
-Every 144 blocks the algorithm adjusts the ticket price. This is called a buying window. Each block can contain 20 newly bought tickets. This means that in every buying window a maximum of 2880 tickets
+Every 288 blocks the algorithm adjusts the ticket price. This is called a buying window. Each block can contain 20 newly bought tickets. This means that in every buying window a maximum of 2880 tickets
 can be added to the PoS system ticket pool.
 
 The ticket price is always refunded no matter if your ticket votes, misses or expires.
@@ -161,7 +161,7 @@ would notice their balances change (HC locked in PoS will not show as spendable)
 
 Further there is a hard limit of 20 tickets added per block so no exchange could flood the pool faster than this.
 
-Finally, there's a soft cap on the total number of tickets in the pool. Every 144 blocks (2880 tickets) the ticket price is adjusted based on the number of tickets in the pool and the rate that new tickets
+Finally, there's a soft cap on the total number of tickets in the pool. Every 288 blocks (2880 tickets) the ticket price is adjusted based on the number of tickets in the pool and the rate that new tickets
 were added in the last window. Eventually the ticket price would be so high that even an exchange wouldn't be able to buy many tickets. And remember that even if they did that their HC are locked so they
 can't buy more when the price drops again.
 

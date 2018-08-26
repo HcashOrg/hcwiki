@@ -27,7 +27,7 @@ Parameter               | Value              | Description
 `SStxChangeMaturity`    | 1                  | After voting, this many blocks must pass for stake and reward to return to PoS miners.
 `TicketPoolSizeWeight`  | 4                  | Tickets will not change price up or down by more than this multiplier in one update.
 `StakeDiffAlpha`        | 1                  | This is the stake difficulty EMA calculation alpha (smoothing) value. It is different from a normal EMA alpha. Closer to 1 --> smoother.
-`StakeDiffWindowSize`   | 144                | The number of blocks in a window. Averaged per window, used below.
+`StakeDiffWindowSize`   | 288                | The number of blocks in a window. Averaged per window, used below.
 `StakeDiffWindows`      | 20                 | An exponential moving average over this many windows is used to calculate stake cost.
 `MaxFreshStakePerBlock` | 20                 | This many new tickets will be added from the mempool to the voting pool each block.
 `StakeEnabledHeight`    | 256 + 256          | Historic. This is the height in which the first ticket could possibly mature. Since coins were locked until block 256, no tickets could be purchased until then. After that, there was another 256 blocks before they matured.
