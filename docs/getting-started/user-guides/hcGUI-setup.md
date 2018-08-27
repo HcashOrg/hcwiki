@@ -1,6 +1,6 @@
 # <img class="hc-icon" src="/img/hc-icons/Wallet.svg" /> hcGUI Setup Guide
 
-Last updated for v2.0.0.
+Last updated for v2.1.0.
 
 ---
 
@@ -48,29 +48,13 @@ The latest version of hcGUI can be downloaded from [https://github.com/HcashOrg]
 
 ## Open and Set Up hcGUI
 
-Opening hcGUI for the first time will display the following screen:
 
-![hcGUI startup screen](/img/decrediton/startup.png)
-
-Select your desired language and press **Continue**. A short presentation explaining HC blockchain, wallet, keys, staking/governance, and safety tips is shown. Please read these slides carefully if you are new to HC.
-
-The following screen should be displayed next.
-
-![hcGUI blockchain download screen](/img/decrediton/chain-downloading.png)
-
-A large progress bar on this screen shows the progress of the blockchain download. You can begin to set up your wallet before the download completes. 
-
-!!! info "Pausing the download"
-
-    If you close hcGUI or shutdown your PC while the download is in progress, the download will be paused and progress will not be lost. It will be resumed from the same point next time hcGUI is started.
-
-    This means you can download the blockchain in multiple sessions if required.
 
 As hcGUI allows you to manage multiple wallets on one PC, you must give a name to your wallet so it can be identified. Enter a name and press the **Create New Wallet** button. You will now be faced with two options: 
 
 1. **Create a New Wallet** - Press this button if this is your first time using HC.
 
-1. **Restore Existing Wallet** - Press this button if you already have a wallet seed. You can skip ahead to [Restore Existing Wallet From Seed](/getting-started/user-guides/hcGUI-setup.md#restore-existing-wallet-from-seed)
+1. **Select availible Wallet** - Press this button if you already have a wallet seed. You can skip ahead to [Restore Existing Wallet From Seed](/getting-started/user-guides/hcGUI-setup.md#restore-existing-wallet-from-seed)
 
 ![hcGUI create wallet screen](/img/decrediton/create-wallet.png)
 

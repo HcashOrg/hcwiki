@@ -1,6 +1,6 @@
 # <img class="hc-icon" src="/img/hc-icons/Wallet.svg" /> Using hcGUI
 
-Last updated for v1.2.0.
+Last updated for v2.1.0.
 
 This guide assumes you have already set up a hcGUI wallet using [the hcGUI Setup guide](hcGUI-setup.md).
 
@@ -124,9 +124,3 @@ The settings tab is also where you come to change your private passphrase.
 
 ---
 
-
-## Help
-
-The help tab contains various links to get help using hcGUI. The "Issues" link will take you the to the hcGUI Github page where problems with the hcGUI software can be reported. We would be grateful for your help!
-
-![Help Tab](/img/decrediton/help.png)
