@@ -69,7 +69,6 @@ pages:
   - 'gominer Pool Mining': 'mining/proof-of-work/pool-mining/gominer.md'
   - 'PoW FAQ': 'faq/proof-of-work-mining.md'
 - FAQ:
-  - 'General': 'faq/general.md'
   - 'Configuration': 'faq/configuration.md'
   - 'Wallets and Seeds': 'faq/wallets-and-seeds.md'
   - 'Web Client': 'faq/web-client.md'

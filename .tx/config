@@ -109,11 +109,7 @@ source_file = docs/faq/errors.md
 source_lang = en
 type = GITHUBMARKDOWN
 
-[hcwiki.faq_general_md]
-file_filter = src/i18n/<lang>/faq/general.md
-source_file = docs/faq/general.md
-source_lang = en
-type = GITHUBMARKDOWN
+
 
 [hcwiki.faq_proof-of-stake_buying-tickets-and-fees_md]
 file_filter = src/i18n/<lang>/faq/proof-of-stake/buying-tickets-and-fees.md
